@@ -1,5 +1,5 @@
-#waterbug-device
-This is the node.js component of the Waterbug project that should get installed on an IoT device and mounted to the WaterRower.
+#astrow-device
+This is the node.js component of the Waterbug project that should get installed on an IoT device and mounted to the rower.
 
 #Getting Started
 ```
