@@ -33,9 +33,9 @@ prompt.get(promptProps, function(err, result) {
 function sendData() {
     var stroke = {
         name: config.name,
-        caloriesPerMinute: 0,
-        distance: 0,
-        strokeRates: []
+        strokeRate: Math.round((Math.random() * 5) + 20),
+        caloriesPerMinute: Math.round((Math.random() * 10) + 70),
+        distance: Math.round((Math.random() * 5) + 20)
     };
 
     socket.emit('stroke', stroke);
