@@ -1,5 +1,5 @@
 var prompt = require('prompt');
-var socket = require('socket.io-client')('http://localhost:8080');
+var socket = require('socket.io-client')('http://server.astrow.site');
 var config = require('./config');
 
 // var waterrower = require("node-waterrower/Waterrower");
