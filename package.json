@@ -1,8 +1,8 @@
 {
-  "name": "waterbug-device",
+  "name": "astrow-device",
   "version": "0.1.0",
   "author": "Jeremy Foster <jeremy.foster@live.com> (http://codefoster.com)",
-  "description": "Device part of the Waterrower project",
+  "description": "Device part of the Astrow project",
   "main": "index.js",
   "dependencies": {
     "mongodb": "^2.0.49",
@@ -12,16 +12,17 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codefoster/waterbug-device.git"
+    "url": "git+https://github.com/astrow/astrow-device.git"
   },
   "keywords": [],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/codefoster/waterbug-device/issues"
   },
-  "homepage": "https://github.com/codefoster/waterbug-device#readme"
+  "homepage": "https://github.com/astrow/astrow-device#readme"
 }
